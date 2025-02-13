@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculater</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="calculater">
+        <input class="answers" id="ans" readonly >
+        <table>
+            <tr>
+                <td><button class="btn-light" onclick="clr()"> c</button></td>
+                <td><button class="btn-light" onclick="lclr()"> <=</button></td>
+                <td><button class="btn-light" onclick="number('%')"> %</button></td>
+                <td><button class="btn-orange" onclick="number('/')"> / </button></td> 
+            </tr>
+            <tr>
+                <td><button class="btn-dark" onclick="number(7)">7</button></td>
+                <td><button class="btn-dark" onclick="number(8)"> 8</button></td>
+                <td><button class="btn-dark" onclick="number(9)"> 9</button></td>
+                <td><button class="btn-orange" onclick="number('*')"> x </button></td> 
+            </tr>
+            <tr>
+                <td><button class="btn-dark" onclick="number(4)">4</button></td>
+                <td><button class="btn-dark" onclick="number(5)"> 5</button></td>
+                <td><button class="btn-dark" onclick="number(6)"> 6</button></td>
+                <td><button class="btn-orange" onclick="number('-')"> -</button></td> 
+            </tr>
+            <tr>
+                <td><button class="btn-dark" onclick="number(1)"> 1</button></td>
+                <td><button class="btn-dark" onclick="number(2)"> 2</button></td>
+                <td><button class="btn-dark" onclick="number(3)"> 3</button></td>
+                <td><button class="btn-orange" onclick="number('+')"> +</button></td> 
+            </tr>
+            <tr>
+                <td colspan="2"><button class="btn-dark" onclick="number(0)"> 0</button></td>
+                <td><button class="btn-dark" onclick="number('.')">.</button></td>
+                <td><button class="btn-orange" onclick="data()"> =</button></td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

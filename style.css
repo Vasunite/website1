@@ -1,0 +1,40 @@
+.calculater{
+    background-color: black;
+    height: 80vh;
+    width: 60vw;
+    margin: 10vh 20vw  10vh 20vw;
+}
+.answers{
+    width: 91%;
+    height: 20%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 2% 4% 2% 4% ;
+}
+
+table{
+    width: 100%;
+    height: 74%;
+}
+
+button{
+   width: 100%; 
+   height: 100%;
+   border-radius: 50px;
+   font-size: 30px;
+   font-weight: 900;
+}
+
+.btn-light {
+    background-color: rgb(128, 128, 128);
+}
+.btn-dark{
+    background-color: rgba(128, 128, 128, 0.359);
+    color: aliceblue;
+}
+.btn-orange{
+    background-color: orange;
+    color: aliceblue;
+}
